@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/fm-rock-paper-scissors-game/static/css/main.43c53cb2.css",
+    "main.js": "/fm-rock-paper-scissors-game/static/js/main.c5dfe9a5.js",
+    "index.html": "/fm-rock-paper-scissors-game/index.html",
+    "static/media/bg-pentagon.svg": "/fm-rock-paper-scissors-game/static/media/bg-pentagon.1ad6d36532b75eb7d82c.svg",
+    "static/media/bg-triangle.svg": "/fm-rock-paper-scissors-game/static/media/bg-triangle.77c6ca418d3751d8f717.svg",
+    "main.43c53cb2.css.map": "/fm-rock-paper-scissors-game/static/css/main.43c53cb2.css.map",
+    "main.c5dfe9a5.js.map": "/fm-rock-paper-scissors-game/static/js/main.c5dfe9a5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.43c53cb2.css",
+    "static/js/main.c5dfe9a5.js"
+  ]
+}
