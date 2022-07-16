@@ -94,8 +94,6 @@ header span{
     }
   }
 
-
-
 @screen md {
     .triangle{
         background: url('../../public/bg-triangle.svg');

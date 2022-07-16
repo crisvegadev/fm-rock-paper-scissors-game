@@ -14,21 +14,21 @@ const HeaderTitle = ({ score, changeMode, isChangedMode, }: {
                     <span className='block text-sm text-Header-Outline font-bold'>SCORE</span>
                     <span className='block font-bold text-4xl text-Header-Outline'>{ score }</span>
                 </div>
-            </div>
+            </div>  
             <div className="flex justify-center mt-10">
                 <div className="flex items-center justify-center w-full mb-12">
                 <label htmlFor="toggleB" className="flex items-center cursor-pointer">
-                    <div className="mr-3 font-medium text-white">NORMAL MODE</div>
+                    <span className="mr-3 font-medium text-white">NORMAL MODE</span>
                     <div className="relative">
                         <input 
                             type="checkbox" 
                             id="toggleB" 
                             className="sr-only" 
-                            onChange={(e) => changeMode(e.target.checked)}/>
+                            onChange={ (e) => changeMode(e.target.checked) }/>
                         <div className="block bg-gray-600 w-14 h-8 rounded-full"></div>
                         <div className="dot absolute left-1 top-1 bg-white w-6 h-6 rounded-full transition"></div>
                     </div>
-                    <div className="ml-3 font-medium text-white">BONUS MODE</div>
+                    <span className="ml-3 font-medium text-white">BONUS MODE</span>
                 </label>
                 </div>
             </div>
